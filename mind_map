@@ -1,0 +1,39 @@
+@startmindmap
++ ssh
+++ protocol
++++ OpenSSH
+++ client
++++ ssh
+++++ connects to
++++++ known_hosts
+++ server
++++ sshd
+++++ accept connections from
++++++ authorized_keys
+++ keys
++++ ssh-keygen
++++ ssh-agent
++++ ssh-add
+++ config
++++ global
+++++ /etc/ssh/
++++++ ssh_config
++++++ sshd_config
++++++ ssh_known_hosts
++++++ ssh_host_<type>_key
++++++ ssh_host_<type>_key.pub
++++ user
+++++ ~/.ssh
++++++ config
++++++ known_hosts
++++++ id_rsa
++++++ id_rsa.pub
+++ file copying
++++ scp
++++ sftp
+++ Keepalive
++++ tcp
++++ scp
+++ Tunnelling
++++ OpenSSH Extension - use OpenVPN instead
+@endmindmap
